@@ -23,10 +23,10 @@ Parity Ethereum's goal is to be the fastest, lightest, and most secure Ethereum 
 By default, Parity Ethereum runs a JSON-RPC HTTP server on port `:8545` and a Web-Sockets server on port `:8546`. This is fully configurable and supports a number of APIs.
 
 Some help:
-- If you want to get a node up and running with Parity Ethereum, see the [Setup](Setup) guide.
-- Frequently asked questions are answered on the [FAQ](FAQ).
-- If you're interested in mining with Parity Ethereum, see the [Mining](Mining) guide.
-- If you'd like to use the JSON-RPC interface with Parity, see the [JSON-RPC](JSONRPC) guide.
-- For [Private chains](Private-chains) and [Proof of Authority Chains](Proof-of-Authority-Chains), you might find the [Chain specification](Chain-specification) useful.
-- If you're interested in hacking on the Parity code base see the [Parity Ethereum Style Guide](Parity-Ethereum-Style-Guide).
 
+- If you want to get a node up and running with Parity Ethereum, see the [Setup](../Setup) guide.
+- Frequently asked questions are answered on the [FAQ](../FAQ).
+- If you're interested in mining with Parity Ethereum, see the [Mining](../Mining) guide.
+- If you'd like to use the JSON-RPC interface with Parity, see the [JSON-RPC](../JSONRPC) guide.
+- For [Private chains](../Private-chains) and [Proof of Authority Chains](../Proof-of-Authority-Chains), you might find the [Chain specification](../Chain-specification) useful.
+- If you're interested in hacking on the Parity code base see the [Parity Ethereum Style Guide](../Parity-Ethereum-Style-Guide).

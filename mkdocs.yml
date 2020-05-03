@@ -1,0 +1,148 @@
+site_name: OpenEthereum Wiki
+site_author: mayachain.net
+theme:
+  name: material
+  custom_dir: overrides
+  logo: public/ETH.svg
+  favicon: public/favicon.ico
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mayachain
+nav:
+  - Parity Ethereum:
+      - Overview: Parity-Ethereum.md
+      - Setup: Setup.md
+      - Getting Synced: Getting-Synced.md
+      - Basic Usage: Basic-Usage.md
+      - FAQ: FAQ.md
+  - Using Parity Ethereum:
+      - Configuring Parity Ethereum: Configuring-Parity-Ethereum.md
+      - For Mining: Mining.md
+      - Wallet Remote Access: Wallet-Remote-Access.md
+      - Network Config: Network-Configuration.md
+      - Docker: Docker.md
+      - CLI Sub-commands: CLI-Sub-commands.md
+      - Community Guides: Community-Guides.md
+  - Blockchains support:
+      - Chain Specification:
+          - Overview: Chain-specification.md
+          - Pluggable Consensus:
+              - Overview: Pluggable-Consensus.md
+              - Aura: Aura.md
+      - Proof of Work Chains: Proof-of-Work-Chains.md
+      - Proof of Authority Chains:
+          - Overview: Proof-of-Authority-Chains.md
+          - Demo PoA Tutorial: Demo-PoA-tutorial.md
+      - Private Dev Chain: Private-development-chain.md
+
+  - JSONRPC Guide:
+      - Overview: JSONRPC.md
+      - debug: JSONRPC-debug-module.md
+      - eth: JSONRPC-eth-module.md
+      - eth_pubsub: JSONRPC-eth_pubsub-module.md
+      - net: JSONRPC-net-module.md
+      - parity: JSONRPC-parity-module.md
+      - parity_accounts: JSONRPC-parity_accounts-module.md
+      - parity_pubsub: JSONRPC-parity_pubsub-module.md
+      - parity_set: JSONRPC-parity_set-module.md
+      - personal: JSONRPC-personal-module.md
+      - private: JSONRPC-private-module.md
+      - secretstore: JSONRPC-secretstore-module.md
+      - shh: JSONRPC-shh-module.md
+      - signer: JSONRPC-signer-module.md
+      - trace: JSONRPC-trace-module.md
+      - web3: JSONRPC-web3-module.md
+
+  - Technologies:
+      - Transaction Queue: Transactions-Queue.md
+      - Automatic Updating: Automatic-Updating.md
+      - Ethereum-IPFS API: IPFS.md
+      - Light Client:
+          - Overview: Light-Client.md
+          - Parity-Light-Protocol (PIP): The-Parity-Light-Protocol-(PIP).md
+          - Light Ethereum (LES): Light-Ethereum-Subprotocol-(LES).md
+      - Polkadot: https://github.com/w3f/polkadot-overview
+      - Parity Bridges: Bridge.md
+      - Secret Store:
+          - Overview: Secret-Store.md
+          - Configuration: Secret-Store-Configuration.md
+          - Tutorial: Secret-Store-Tutorial-overview.md
+      - Permissioning:
+          - Overview: Permissioning.md
+          - Private Transactions:
+              - Overview: Private-Transactions.md
+              - Tutorial: Private-Transactions-Tutorial-Overview.md
+          - Validator Set:
+              - Overview: Validator-Set.md
+              - Validator contracts: Validator-contracts.md
+              - Tutorial: Validator-Set-Tutorial-Overview.md
+          - Block Reward Contract: Block-Reward-Contract.md
+      - Warp Sync:
+          - Warp Sync Overview: Warp-Sync.md
+          - Snapshot Format: Warp-Sync-Snapshot-Format.md
+      - WebAssembly (Wasm):
+          - General: WebAssembly-Home.md
+          - Design: WebAssembly-Design.md
+          - Links: WebAssembly-Links.md
+      - Whisper:
+          - Whisper: Whisper.md
+          - Overview: Whisper-Overview.md
+          - Whisper PoC \#2: Whisper-PoC-2.md
+          - Wire Protocol: Whisper-PoC-2-Wire-Protocol.md
+
+  - Hacking:
+      - Parity Ethereum Style Guide: Parity-Ethereum-Style-Guide.md
+      - Known Issues: https://github.com/paritytech/parity-ethereum/issues
+      - Fuzz Testing: Fuzz-Testing.md
+      - Labeling: Labelling.md
+      - Release Notes: https://github.com/paritytech/parity-ethereum/blob/master/CHANGELOG
+      - Gitter: https://gitter.im/ethcore/parity
+      - GitHub: https://github.com/paritytech/parity
+      - Website: https://parity.io
+
+  - Parity Fether:
+      - Overview: Parity-Fether.md
+      - FAQ: Fether-FAQ.md
+
+  - Parity Signer Mobile App:
+      - Overview: Parity-Signer-Mobile-App.md
+      - HDKD on Signer: Parity-Signer-Hierarchical-Deterministic-Key-Derivation.md
+      - Tutorial w/ Polkadot-js apps on Kusama: Parity-Signer-Mobile-App-Apps-Kusama-tutorial.md
+      - Tutorial w/ Fether: Parity-Signer-Mobile-App-Fether-tutorial.md
+      - Tutorial w/ MyCrypto: Parity-Signer-Mobile-App-MyCrypto-tutorial.md
+
+  - Parity UI - Parity Wallet:
+      - Overview: Parity-Wallet.md
+      - Back-up & Restore: Backing-up-&-Restoring.md
+      - Wallets & Vaults: Accounts,-Wallets,-Vaults.md
+      - Ledger Nano S: Ledger-Nano-S.md
+
+  - Developing:
+      - Development Overview: Development-Overview.md
+      - Writing DApps:
+          - Overview: Deploying-Dapps-to-Parity-UI.md
+          - Dapp Discovery: Register-your-DAPP-for-discovery.md
+          - Parity Name Registry: Parity-name-registry.md
+          - Parity GitHub Hint: Parity-Github-Hint.md
+          - Parity Dapp Registry: Parity-dapp-registry.md
+          - Dapp Tutorial:
+              - Overview: Dapp-Tutorial.md
+              - 1. Get Started: Tutorial-Part-1.md
+              - 2. oo7 Bonds: Tutorial-Part-2.md
+              - 3. Parity Bonds: Tutorial-Part-3.md
+              - 4. Call Contracts: Tutorial-Part-4.md
+              - 5. Post Transactions: Tutorial-Part-5.md
+              - 6. A New Contract: Tutorial-Part-6.md
+              - 7. Interaction: Tutorial-Part-7.md
+              - 8. Events: Tutorial-Part-8.md
+              - 9. Deploy Contracts: Tutorial-Part-9.md
+              - 10. Sign Data: Tutorial-Part-10.md
+          - oo7 Examples: oo7-Parity-Examples.md
+          - oo7-parity.js Reference: oo7-Parity-Reference.md
+      - ERC20 Tokens:
+          - Overview: Tokens.md
+          - Token Deployment: Token-Deployment.md
+          - Token Registry: Token-Registry.md
+      - Badge Registry: Badge-Registry.md
+      - Smart Contracts: Smart-Contracts.md

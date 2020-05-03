@@ -1,4 +1,5 @@
 ## Parity Ethereum
+
 - [Overview](Parity-Ethereum)
 - [Setup](Setup)
 - [Getting Synced](Getting-Synced)
@@ -6,6 +7,7 @@
 - [FAQ](FAQ)
 
 ### Using Parity Ethereum
+
 - [Configuring Parity Ethereum](Configuring-Parity-Ethereum)
 - [For Mining](Mining)
 - [Wallet Remote Access](Wallet-Remote-Access)
@@ -15,6 +17,7 @@
 - [Community Guides](Community-Guides)
 
 ### Blockchains support
+
 - Chain Specification
   - [Overview](Chain-specification)
   - Pluggable Consensus
@@ -27,6 +30,7 @@
 - [Private Dev Chain](Private-development-chain)
 
 ### JSONRPC Guide
+
 - [Overview](JSONRPC)
 - [debug](JSONRPC-debug-module)
 - [eth](JSONRPC-eth-module)
@@ -45,13 +49,14 @@
 - [web3](JSONRPC-web3-module)
 
 ### Technologies
+
 - [Transaction Queue](Transactions-Queue)
 - [Automatic Updating](Automatic-Updating)
 - [Ethereum-IPFS API](IPFS)
 - Light Client
   - [Overview](Light-Client)
-  - [Parity-Light-Protocol (PIP)](The-Parity-Light-Protocol-(PIP))
-  - [Light Ethereum (LES)](Light-Ethereum-Subprotocol-(LES))
+  - [Parity-Light-Protocol (PIP)](<The-Parity-Light-Protocol-(PIP)>)
+  - [Light Ethereum (LES)](<Light-Ethereum-Subprotocol-(LES)>)
 - [Polkadot](https://github.com/w3f/polkadot-overview) <i class="fa fa-external-link"></i>
 - [Parity Bridges](Bridge)
 - Secret Store
@@ -82,6 +87,7 @@
   - [Wire Protocol](Whisper-PoC-2-Wire-Protocol)
 
 ### Hacking
+
 - [Parity Ethereum Style Guide](Parity-Ethereum-Style-Guide)
 - [Known Issues](https://github.com/paritytech/parity-ethereum/issues) <i class="fa fa-external-link"></i>
 - [Fuzz Testing](Fuzz-Testing)
@@ -91,27 +97,13 @@
 - [GitHub](https://github.com/paritytech/parity) <i class="fa fa-external-link"></i>
 - [Website](https://parity.io) <i class="fa fa-external-link"></i>
 
-## Parity Substrate
-- [Overview](Parity-Substrate)
-- [Byzantine Fault Tolerance](Byzantine-Fault-Tolerance)
-- [Consensus](Consensus)
-- [decl_storage!](decl_storage)
-- [Extrinsic](Extrinsic)
-- [External Address Format (SS58)](External-Address-Format-(SS58))
-- [Full-client](Substrate-Full-Client)
-- [Genesis](Genesis)
-- [impl_stubs!](impl_stubs)
-- [Light-client](Substrate-Light-Client)
-- [P2P](P2P)
-- [Reclaiming an index](Reclaiming-an-index)
-- [Runtime](Runtime)
-- [Style Guide](Substrate-Style-Guide)
-
 ## Parity Fether
+
 - [Overview](Parity-Fether)
 - [FAQ](Fether-FAQ)
 
 ## Parity Signer Mobile App
+
 - [Overview](Parity-Signer-Mobile-App)
 - [HDKD on Signer](Parity-Signer-Hierarchical-Deterministic-Key-Derivation)
 - [Tutorial w/ Polkadot-js apps on Kusama](Parity-Signer-Mobile-App-Apps-Kusama-tutorial)
@@ -119,12 +111,14 @@
 - [Tutorial w/ MyCrypto](Parity-Signer-Mobile-App-MyCrypto-tutorial)
 
 ## Parity UI - Parity Wallet
+
 - [Overview](Parity-Wallet)
 - [Back-up & Restore](Backing-up-&-Restoring)
 - [Wallets & Vaults](Accounts%2C-Wallets%2C-Vaults)
 - [Ledger Nano S](Ledger-Nano-S)
 
 ### Developing
+
 - [Development Overview](Development-Overview)
 - Writing DApps
   - [Overview](Deploying-Dapps-to-Parity-UI)
